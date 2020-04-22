@@ -9,6 +9,12 @@ function showOddOrEven(givenNumber) {
 
 // Trolls
 
+let vowels = ["a", "e", "i", "o", "u"];
+
+function removeVowels(inputString) {
+  let stringToArray = inputString.split();
+}
+
 function removeVowels(inputString) {
   return inputString.replace(/[a, e, i, o, u]/g, "");
 }
